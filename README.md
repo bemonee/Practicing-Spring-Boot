@@ -51,23 +51,30 @@ En cambio, un archetype es una plantilla que nos permite fácilmente iniciar un 
 
 
 **GET**
+
 Se usa para obtener información del servidor, puede ser algún archivo HTML, una imagen, un archivo de texto, un XML, un JSON, etc. Este método solo debe usarse para **obtener información del servidor** de acuerdo a los estándares de HTTP. El método **GET no debe cambiar el estado del servidor**. Es idempotente.
 
 **HEAD**
+
 Se usa para **obtener la cabecera de respuesta que devuelve el servidor** al hacer una petición sobre éste. Es similar al GET pero este no devuelve una respuesta con contenido, sino que solo los metadatos.
 
 **POST**
+
 Es el encargado de **crear un nuevo recurso** y, por consiguiente, **modificar el estado del servidor**.  Es usado de enviar información al servidor y que este la procese. No es idempotente.
 
 **PUT**
+
 Es el encargado de **modificar un recurso existente** y, por consiguiente, **modificar el estado del servidor**. Es usado de enviar información al servidor y que este la procese. Es idempotente.
 
 **DELETE**
+
 El método DELETE  **es usado para borrar un recurso del servidor**
 
 **OPTIONS**
+
 Este método se usa para saber que otros métodos HTTP están disponibles, para determinado recurso, en el servidor.
 
 **PATCH**
+
 Parecido al PUT pero este unicamente efectua modificaciones parciales sobre el recurso. Es no idempotente.
 Solo se debe enviar la informacion a modificar.
