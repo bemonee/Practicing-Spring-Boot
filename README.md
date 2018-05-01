@@ -2,10 +2,10 @@
 # Maven
 
 ## Goals:
- **- mvn clean:** limpia todas las clases compiladas del proyecto
- **- mvn compile:** compila el proyecto entero
- **- mvn package:** empaqueta el proyecto compilado a un formato distribuible. JAR, WAR, etc.
- **- mvn install:** instala el/los artefactos en el repositorio local.
+ - **mvn clean:** limpia todas las clases compiladas del proyecto
+ - **mvn compile:** compila el proyecto entero
+ - **mvn package:** empaqueta el proyecto compilado a un formato distribuible. JAR, WAR, etc.
+ - **mvn install:** instala el/los artefactos en el repositorio local.
 
 ## Scopes:
  - **compile**: opcion por defecto si no especificamos el scope. Indica que la dependencia es requerida para compilar el proyecto. La dependencia de este tipo se propaga en los proyectos dependientes del actual.
